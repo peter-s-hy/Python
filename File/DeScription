@@ -1,0 +1,9 @@
+2020/8/3
+File--对文件的基本操作API
+内键函数（方法）：（Python自带，无需额外安装）
+    open() 打开文件
+    read() 输入
+    readline() 输入一行
+    seek() 文件内移动
+    write() 输出
+    close() 关闭文件
