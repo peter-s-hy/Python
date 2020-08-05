@@ -1,11 +1,11 @@
 # 读取文件
-# sanguotxt = open("Resoursce/sgyy.txt",encoding='GB18030')
+# sanguotxt = open("resoursce/sgyy.txt",encoding='GB18030')
 # data = sanguotxt.read()
 # print(data)
 # sanguotxt.close()
 
 # 读取人物名字
-# 读取人物名字figure  = open("Resoursce/figure.txt",encoding='UTF-8')
+# 读取人物名字figure  = open("resoursce/figure.txt",encoding='UTF-8')
 # data = figure.read()
 # print(data)
 # figure.close()
@@ -22,7 +22,7 @@ def read(file_path, encoding):
     return data
 
 
-data = read('Resoursce/figure.txt','UTF-8')
-data1 = read('Resoursce/sgyy.txt', 'GB18030')
+data = read('resoursce/figure.txt', 'UTF-8')
+data1 = read('resoursce/sgyy.txt', 'GB18030')
 print(data, data1)
 
