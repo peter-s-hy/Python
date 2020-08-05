@@ -15,3 +15,7 @@ def fun():
     print(str,end= ' ')
 fun()
 print(str)
+
+#print 文件用法
+with open("file.txt",'w') as f:
+    print(str,file=f)
