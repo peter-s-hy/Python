@@ -3,31 +3,35 @@
 # file1 = open('name.txt','w')
 # file1.write("蜀国--刘备")
 # file1.close()
-#
-#
+
+
 # #读取文件
 # file2 = open('name.txt')
 # str = file2.read()
 # file2.close()
 # #打印内容
 # print(str)
-#
+
+
 # #文件追加
 # file3 = open("name.txt","a")
 # file3.write("\n蜀国--赵云")
 # file3.write("\n蜀国--张飞")
 # file3.write("\n蜀国--关羽")
 # file3.close()
-#
+
+
 # #多行文件读取
 # file4 = open("name.txt")
 # print(file4.readlines())
 # file4.close()
-#
+
+
 # flie5 = open("name.txt")
 # for line in flie5.readlines():
 #     print(line)
 #     print("========")
+
 
 file6 = open('name.txt')
 print(file6.tell())
